@@ -3,3 +3,46 @@
     width: 100%;
     margin: 0;
 }
+
+.videoimg {
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+}
+
+.about-head {
+    color: #3491bd;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.about-p {
+    line-height: 2.5rem;
+    font-size: 1.1em;
+    color: rgb(63, 62, 62);
+}
+
+.about-div {
+    padding: 20px;
+}
+
+.wirelessDiv {
+    background-color: #3491bd;
+    height: 165px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.glyph-wrapper {
+    margin-bottom: 15px;
+    font-size: 3rem
+}
+
+.no-margin-p {
+    margin: 0;
+}

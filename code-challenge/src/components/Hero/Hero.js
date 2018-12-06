@@ -5,7 +5,6 @@ import './Hero.css'
 
 const hero = () => {
     return(
-
         <Image className ="heroimg" src={heroimg} responsive />
     )
 }
