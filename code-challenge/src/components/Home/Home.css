@@ -46,3 +46,35 @@
 .no-margin-p {
     margin: 0;
 }
+
+.modal-content {
+    border-radius: 2%;
+}
+
+.modal-header{
+    background-color: #3491bd;
+    color: white;
+}
+
+.modal-footer {
+    text-align: center;
+}
+
+.modal-close{
+    background-color: blue;
+}
+
+.invest-btn-text {
+    font-size: 1.6rem;
+    background-color : #31a3dd;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border-color: #31a3dd;
+  }
+  
+  #invest-btn {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+  }
