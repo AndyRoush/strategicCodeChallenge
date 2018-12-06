@@ -1,15 +1,12 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import {
-  Row,
-  Col,
-  Image,
-  Button,
-  Glyphicon,
-  Modal,
-} from "react-bootstrap";
+import { Row, Col, Image, Button, Glyphicon, Modal } from "react-bootstrap";
 import "./Home.css";
 import placeholder from "../../assets/placeholder.png";
+import Trends from "../Trends/Trends";
+import Strategy from "../Strategy/Strategy";
+import Gallery from "../Gallery/Gallery";
+import Info from "../Info/Info";
 
 class Home extends Component {
   constructor(props, context) {
@@ -103,7 +100,18 @@ class Home extends Component {
             </p>
           </Col>
         </Row>
-
+        <div id="trendsDiv">
+          <Trends />
+        </div>
+        <div id="strategyDiv">
+          <Strategy />
+        </div>
+        <div id="galleryDiv">
+          <Gallery />
+        </div>
+        <div id="infoDiv">
+          <Info />
+        </div>
         <Modal show={this.state.show} onHide={this.handleClose}>
           <Modal.Header closeButton>
             <Modal.Title>
@@ -119,9 +127,11 @@ class Home extends Component {
             </Button>
           </Modal.Footer>
         </Modal>
-        <div id="invest-btn">
-          <button class="invest-btn-text"><strong>Ready to Invest? <Glyphicon glyph="glyphicon glyphicon-pencil" /></strong></button>
-        </div>
+        <button className="invest-btn">
+          <strong>
+            Ready to Invest? <Glyphicon glyph="glyphicon glyphicon-pencil" />
+          </strong>
+        </button>
       </div>
     );
   }

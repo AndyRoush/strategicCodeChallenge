@@ -64,17 +64,18 @@
     background-color: blue;
 }
 
-.invest-btn-text {
+ .invest-btn {
     font-size: 1.6rem;
     background-color : #31a3dd;
     color: white;
-    padding: 10px 20px;
+    padding: 12px 20px;
     border-radius: 20px;
     border-color: #31a3dd;
-  }
-  
-  #invest-btn {
     position: fixed;
     bottom: 30px;
     right: 20px;
-  }
+    border: none;
+    box-shadow: 1px 4px 15px 0px #3e3d3d;
+}
+
+
