@@ -1,4 +1,7 @@
 .info-content-div {
-    height: 300px;
+    height: 400px;
     background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

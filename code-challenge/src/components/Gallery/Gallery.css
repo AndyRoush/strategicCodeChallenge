@@ -1,4 +1,7 @@
 .gallery-content-div {
-    height: 300px;
-    background-color: red;
+    height: 400px;
+    background-color: rgb(194, 86, 86);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

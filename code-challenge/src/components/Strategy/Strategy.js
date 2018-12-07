@@ -4,7 +4,7 @@ import './Strategy.css'
 const strategy = () => {
     return(
     <div className="strategy-content-div">
-        <p>Strategy</p>
+        <h1>PLACEHOLDER DIV FOR LINK TARGETS - Strategy</h1>
     </div>
     );
 }

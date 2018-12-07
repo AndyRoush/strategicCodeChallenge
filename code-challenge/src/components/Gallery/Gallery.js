@@ -4,7 +4,7 @@ import './Gallery.css';
 const gallery = () => {
     return(
     <div className="gallery-content-div">
-        <p>Gallery</p>
+        <h1>PLACEHOLDER DIV FOR LINK TARGETS - Gallery</h1>
     </div>
     );
 }

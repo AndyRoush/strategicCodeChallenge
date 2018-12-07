@@ -1,12 +1,16 @@
-import React from 'react';
-import { Image } from 'react-bootstrap';
-import heroimg from '../../assets/heroimg.PNG'
-import './Hero.css'
+import React from "react";
+import { Image, Row, Col } from "react-bootstrap";
+import heroimg from "../../assets/heroimg.PNG";
+import "./Hero.css";
 
 const hero = () => {
-    return(
-        <Image className ="heroimg" src={heroimg} responsive />
-    )
-}
+  return (
+    <Row>
+      <Col xs={12}>
+        <Image className="main-img" responsive src={heroimg} />
+      </Col>
+    </Row>
+  );
+};
 
 export default hero;

@@ -4,7 +4,7 @@ import './Trends.css';
 const trends = () => {
     return(
     <div className="trends-div-content">
-        <p>Trends</p>
+        <h1>PLACEHOLDER DIV FOR LINK TARGETS - Trends</h1>
     </div>
     );
 }

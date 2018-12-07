@@ -31,7 +31,7 @@ class Home extends Component {
   render() {
     return (
       <div className="main-div">
-        <Row className="about-div">
+        <Row className="about-div" id="aboutDiv">
           <Col xs={12} md={8}>
             <h2 className="about-head">
               Strategic Wireless Infrastructure Fund
@@ -53,7 +53,7 @@ class Home extends Component {
           </Col>
         </Row>
 
-        <Row className="wirelessDiv">
+        <Row className="wirelessDiv" id="wirelessDiv">
           <Col xs={12} md={2} align="center">
             <div className="glyph-wrapper">
               <Glyphicon glyph="glyphicon glyphicon-signal" />
@@ -63,7 +63,7 @@ class Home extends Component {
               <strong>Wireless Infrastructure</strong>
             </p>
           </Col>
-          <Col xs={6} md={2} align="center">
+          <Col xs={12} md={2} align="center">
             <div className="glyph-wrapper">
               <Glyphicon glyph="glyphicon glyphicon-resize-full" />
             </div>
@@ -72,7 +72,7 @@ class Home extends Component {
               <strong>$100,000,000</strong>
             </p>
           </Col>
-          <Col xs={6} md={2} align="center">
+          <Col xs={12} md={2} align="center">
             <div className="glyph-wrapper">
               <Glyphicon glyph="glyphicon glyphicon-piggy-bank" />
             </div>
@@ -81,7 +81,7 @@ class Home extends Component {
               <strong>$50,000</strong>
             </p>
           </Col>
-          <Col xs={6} md={2} align="center">
+          <Col xs={12} md={2} align="center">
             <div className="glyph-wrapper">
               <Glyphicon glyph="glyphicon glyphicon-user" />
             </div>
@@ -90,7 +90,7 @@ class Home extends Component {
               <strong>Accredited Investors Only</strong>
             </p>
           </Col>
-          <Col xs={6} md={2} align="center">
+          <Col xs={12} md={2} align="center">
             <div className="glyph-wrapper">
               <Glyphicon glyph="glyphicon glyphicon-time" />
             </div>
