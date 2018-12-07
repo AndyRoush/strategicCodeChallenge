@@ -52,22 +52,23 @@
     border-radius: 2%;
 }
 
-.modal-header{
+.modal-header {
     background-color: #3491bd;
     color: white;
+    border-radius: 9px 9px 0 0;
 }
 
 .modal-footer {
     text-align: center;
 }
 
-.modal-close{
+.modal-close {
     background-color: blue;
 }
 
- .invest-btn {
+.invest-btn {
     font-size: 1.6rem;
-    background-color : #31a3dd;
+    background-color: #31a3dd;
     color: white;
     padding: 12px 20px;
     border-radius: 20px;
@@ -80,11 +81,12 @@
 }
 
 .CTA-btn {
-  padding: 0;
+    padding: 0;
 }
 
-.col-md-2, .col-xs-12 {
-    position: relative; 
+.col-md-2,
+.col-xs-12 {
+    position: relative;
     min-height: 0px;
     padding-right: 0px;
     padding-left: 0px;
@@ -94,4 +96,3 @@
     margin-right: 0px;
     margin-left: 0px;
 }
-

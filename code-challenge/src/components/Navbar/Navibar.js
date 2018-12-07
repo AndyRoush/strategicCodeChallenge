@@ -3,7 +3,7 @@ import { Navbar, Nav, NavItem, Image } from "react-bootstrap";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { NavHashLink as NavLink } from "react-router-hash-link";
 import "./Navbar.css";
-import mainLogo from '../../assets/mainLogo.png'
+import mainLogo from "../../assets/mainLogo.png";
 
 class Navibar extends Component {
   render() {
@@ -11,24 +11,26 @@ class Navibar extends Component {
       <Navbar default collapseOnSelect fixedTop>
         <Navbar.Header>
           <Navbar.Brand>
-            <Link to="/"><Image id="logo-img" src={mainLogo} responsive /></Link>
+            <Link to="/">
+              <Image id="logo-img" src={mainLogo} responsive />
+            </Link>
           </Navbar.Brand>
           <Navbar.Toggle />
         </Navbar.Header>
         <Navbar.Collapse>
           <Nav>
             <NavItem eventKey={1}>
-            <NavLink smooth to="../Home#aboutDiv">
+              <NavLink smooth to="../Home#aboutDiv">
                 Home
               </NavLink>
             </NavItem>
             <NavItem eventKey={2}>
-            <NavLink smooth to="../Home#aboutDiv">
+              <NavLink smooth to="../Home#aboutDiv">
                 About Us
               </NavLink>
             </NavItem>
             <NavItem eventKey={3}>
-            <NavLink smooth to="../Home#wirelessDiv">
+              <NavLink smooth to="../Home#wirelessDiv">
                 Wireless Infrastructure
               </NavLink>
             </NavItem>
@@ -52,9 +54,7 @@ class Navibar extends Component {
                 Information Center
               </NavLink>
             </NavItem>
-            <NavItem eventKey={8}>
-              Log Out
-            </NavItem>
+            <NavItem eventKey={8}>Log Out</NavItem>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
