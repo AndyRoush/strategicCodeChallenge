@@ -28,11 +28,12 @@
 
 .wirelessDiv {
     background-color: #3491bd;
-    height: 165px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     display: flex;
     justify-content: center;
     justify-content: space-around;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     align-items: center;
     color: white;
     font-size: 1.5rem;

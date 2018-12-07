@@ -28,6 +28,7 @@ class Home extends Component {
     this.setState({ show: true });
   }
 
+    
   render() {
     return (
       <div className="main-div">
