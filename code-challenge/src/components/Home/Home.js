@@ -28,10 +28,9 @@ class Home extends Component {
     this.setState({ show: true });
   }
 
-    
   render() {
     return (
-      <div className="main-div">
+      <div className="main-div" id="mainContainer">
         <Row className="about-div" id="aboutDiv">
           <Col xs={12} md={8}>
             <h2 className="about-head">
@@ -129,9 +128,14 @@ class Home extends Component {
           </Modal.Footer>
         </Modal>
         <button className="invest-btn">
-          <strong>
-            Ready to Invest? <Glyphicon glyph="glyphicon glyphicon-pencil" />
-          </strong>
+          <Row>
+            <Col xsHidden md={11} className="CTA-btn">
+              <span><strong>Ready to Invest?</strong></span>
+            </Col>
+            <Col xs={12} md={1}>
+              <Glyphicon glyph="glyphicon glyphicon-pencil" />
+            </Col>
+          </Row>
         </button>
       </div>
     );

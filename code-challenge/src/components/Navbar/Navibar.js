@@ -18,7 +18,7 @@ class Navibar extends Component {
         <Navbar.Collapse>
           <Nav>
             <NavItem eventKey={1}>
-            <NavLink smooth to="./#">
+            <NavLink smooth to="../Home#aboutDiv">
                 Home
               </NavLink>
             </NavItem>

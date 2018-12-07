@@ -79,6 +79,10 @@
     box-shadow: 1px 4px 15px 0px #3e3d3d;
 }
 
+.CTA-btn {
+  padding: 0;
+}
+
 .col-md-2, .col-xs-12 {
     position: relative; 
     min-height: 0px;
