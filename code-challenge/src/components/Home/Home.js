@@ -99,9 +99,9 @@ class Home extends Component {
             <div className="glyph-wrapper">
               <Glyphicon glyph="glyphicon glyphicon-time" />
             </div>
-            <p className="no-margin-p">How long?</p>
+            <p className="no-margin-p">Placeholder text</p>
             <p>
-              <strong>When the clock strikes 12</strong>
+              <strong>...after completion of offering</strong>
             </p>
           </Col>
         </Row>
